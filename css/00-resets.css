@@ -1,0 +1,9 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Убираем внешние (margin) и внутренние (padding) отступы у всех элементов */
+/* Устанавливаем box-sizing в border-box, чтобы размеры элементов включали padding и border */
