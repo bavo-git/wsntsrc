@@ -1,8 +1,8 @@
 
 body {
-    height: 100dvh;
-
     background: red;
+
+    height: 100dvh;
 }
 
 /* Бэк с высотой и без адресной строки */
