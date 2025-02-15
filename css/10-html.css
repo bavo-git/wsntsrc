@@ -2,5 +2,15 @@
 html {
     height: 100dvh;
 }
-
 /* Высота страницы без UI-элементов браузера(адресная строка...). */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 19dvh;
+}
+/* Флекс-контейнер. */
+/* Раздвинуть по краям. */
+/* Центрировать по вертикали. */
