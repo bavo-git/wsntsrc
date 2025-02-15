@@ -1,6 +1,9 @@
 
 header {
-    background-color: darkgreen;
+    border-top: 0.8dvh solid rgb(78, 78, 78);
+    border-bottom: 1.2dvh solid rgb(178, 178, 178);
+
+    background: rgb(1, 111, 111);
 
     height: 19dvh;
 }
