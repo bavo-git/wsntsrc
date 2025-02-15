@@ -1,6 +1,8 @@
 
 html {
-    background: green;
+    background: black;
 
     height: 100vh;
 }
+
+/* Бэк работает с высотой. Высота включает адресную строку. */
