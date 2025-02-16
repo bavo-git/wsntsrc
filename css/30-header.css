@@ -1,8 +1,9 @@
 
 header {
     background: rgb(0, 128, 128);
-
     background-image: radial-gradient(circle, white, rgb(0, 128, 255, 0.25));
+
+    box-shadow: inset 0 -0.2rem 0.4rem;
 
     width: 100%;
     height: 18%;
