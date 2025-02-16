@@ -1,0 +1,14 @@
+
+/* Общие стили в css/10-html.css */
+#o-mne {
+    border-left: none;
+    border-radius: 0 20% 20% 0;
+    background-image: radial-gradient(circle, white, rgba(255, 128, 0, .9));
+}
+
+
+#kontakty {
+    border-right: none;
+    border-radius: 20% 0 0 20%;
+    background-image: radial-gradient(circle, white, rgba(0, 255, 0, .9));
+}
