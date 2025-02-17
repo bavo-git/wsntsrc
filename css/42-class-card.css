@@ -5,7 +5,7 @@
 
     background: rgb(255, 248, 235);
 
-    box-shadow: inset 0 0 0.1rem 0.1rem, 0 0 0.1rem 0.1rem;
+    box-shadow: inset 0 0 0.1rem 0.1rem, 0.1rem 0 0.1rem 0.1rem;
 
     width: 88%;
     height: 88%;
@@ -17,7 +17,7 @@
 }
 
 .card span {
-    border: .04rem solid rgb(78, 78, 78);
+    border: .04rem solid rgb(88, 88, 88);
     border-radius: 8%;
 
     font-weight: 600;
@@ -35,6 +35,12 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+#logo span {
+    background: radial-gradient(circle, white, rgba(128, 68, 18, 0.8));
+
+    box-shadow: inset 0 0 0.1rem 0.1rem, 0 0 0.1rem 0.1rem;
 }
 
 #bystrova {
@@ -62,6 +68,8 @@
 }
 
 #menu-services span {
+    background: rgb(220, 240, 255);
+
     padding: 2%;
     margin-right: 4%;
 }
@@ -82,6 +90,8 @@
 }
 
 #menu-options span {
+    background: rgb(220, 240, 255);
+
     padding: 2%;
     margin-right: 4%;
 }
@@ -102,10 +112,20 @@
 }
 
 #gallery span {
-    padding: 2%;
-    margin-right: 3%;
+    padding: 2% 2.8% 2.8% 2%;
+    margin-right: 4%;
 
     font-size: 1.6rem;
+}
+
+#gallery span:nth-child(1) {
+    background: radial-gradient(circle, white, rgb(220, 240, 255));
+}
+
+#gallery span:not(:first-child) {
+    background: radial-gradient(circle, white, rgba(255, 0, 0, 0.8));
+
+    box-shadow: inset 0 0 0.1rem 0.1rem, 0.1rem 0 0.1rem 0.1rem;
 }
 
 #gallery span:nth-last-child(1) {
