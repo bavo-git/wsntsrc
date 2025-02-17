@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/40-main.css">
     <link rel="stylesheet" href="css/41-main-section.css">
     <link rel="stylesheet" href="css/42-class-card.css">
+    <link rel="stylesheet" href="css/43-class-img.css">
     <link rel="stylesheet" href="css/50-footer.css">
     <link rel="stylesheet" href="css/51-footer-nav.css">
 </head>
@@ -43,7 +44,7 @@
                     <span>horký nápoj</span>
                     <span>WC</span>
                 </div>
-                <div id="gallery">
+                <div id="gallery" onclick="scrollToNextSection()">
                     <span>GALERIE</span>
                     <span>&gt;</span>
                     <span>&gt;</span>
@@ -52,8 +53,8 @@
             </div>
         </section>
         <section>
-            <div>
-                 images here
+            <div class="image">
+                <img src="imgs/0_working-place-table.webp" alt="working-place-table" onclick="toggleFullscreen(this)">
             </div>
         </section>
     </main>
@@ -64,5 +65,7 @@
             <a id="contacts" href="#">Kontakty</a>
         </nav>
     </footer>
+    <script src="js/click-scroll-section.js"></script>
+    <script src="js/toggle-fullscreen.js"></script>
 </body>
 </html>
