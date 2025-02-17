@@ -20,5 +20,4 @@ body {
     flex-direction: column;
     justify-content: space-between;
     /* Делаю флекс-контейнер, центрирую по вертикали(Y), в колонку, растягиваю по горизонтали(X). */
-
 }

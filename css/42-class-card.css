@@ -1,16 +1,30 @@
 
-/* !!! Общие стили в css/10-html.css !!! */
+.card {
+    border: 0.08rem solid rgb(228, 228, 228);
+    border-radius: 4%;
 
-span {
+    background: rgb(255, 248, 235);
+
+    box-shadow: inset 0 0 0.1rem 0.1rem, 0 0 0.1rem 0.1rem;
+
+    width: 88%;
+    height: 88%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.card span {
     border: .04rem solid rgb(78, 78, 78);
     border-radius: 8%;
-
-    padding: 2%;
 
     font-weight: 600;
 
     display: inline-block;
 }
+
 
 
 #logo {
@@ -23,7 +37,6 @@ span {
     flex-direction: column;
 }
 
-
 #bystrova {
     padding: 2% 6% 0.8% 6%;
     margin-bottom: 2.8%;
@@ -31,12 +44,12 @@ span {
     font-size: 2.2rem;
 }
 
-
 #neht-spec {
     padding: 2% 6% 0.8% 6%;
 
     font-size: 1.2rem;
 }
+
 
 
 #menu-services {
@@ -48,10 +61,15 @@ span {
     justify-content: center;
 }
 
-
 #menu-services span {
-    margin-right: 3%;
+    padding: 2%;
+    margin-right: 4%;
 }
+
+#menu-services span:nth-last-child(1) {
+    margin: 0;
+}
+
 
 
 #menu-options {
@@ -63,10 +81,15 @@ span {
     justify-content: center;
 }
 
-
 #menu-options span {
-    margin-right: 3%;
+    padding: 2%;
+    margin-right: 4%;
 }
+
+#menu-options span:nth-last-child(1) {
+    margin-right: 0;
+}
+
 
 
 #gallery {
@@ -79,7 +102,12 @@ span {
 }
 
 #gallery span {
-    font-size: 1.6rem;
+    padding: 2%;
     margin-right: 3%;
 
+    font-size: 1.6rem;
+}
+
+#gallery span:nth-last-child(1) {
+    margin-right: 0;
 }
