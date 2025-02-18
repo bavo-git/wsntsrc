@@ -1,6 +1,6 @@
 
 .card {
-    border: 0.08rem solid rgb(228, 228, 228);
+    border: 0.12rem solid rgb(228, 228, 228);
     border-radius: 4%;
 
     background: rgb(255, 248, 235);
@@ -17,7 +17,7 @@
 }
 
 .card span {
-    border: .08rem solid rgb(88, 88, 88);
+    border: 0.08rem solid rgb(88, 88, 88);
     border-radius: 8%;
 
     font-weight: 600;
