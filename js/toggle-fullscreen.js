@@ -1,9 +1,7 @@
+
 function toggleFullscreen(img) {
-    if (img.classList.contains('fullscreen')) {
-        img.classList.remove('fullscreen');
-        document.exitFullscreen();
-    } else {
-        img.classList.add('fullscreen');
-        img.requestFullscreen();
-    }
+    img.classList.toggle('fullscreen');
 }
+
+// Функциия принимает элемент img и добавляет/удаляет класс fullscreen
+// <img onclick="toggleFullscreen(this)" src="imgs/0_working-place-table.webp" alt="working-place-table">
