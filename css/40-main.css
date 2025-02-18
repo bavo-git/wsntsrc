@@ -5,6 +5,7 @@ main {
 
     background: rgb(0, 88, 88);
     background-image: linear-gradient(to left, white, rgba(0, 128, 255, 0.32));
+    /* Пеереливается при смене секций */
 
     width: 100%;
     height: 64%;

@@ -6,6 +6,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
 .image img {
@@ -34,4 +36,17 @@
     top: 0;
     left: 0;
     z-index: 1000;
+}
+
+.image::after {
+    content: '🔍';
+    pointer-events: none;
+
+    color: rgba(255, 255, 255, 0.8);
+
+    position: absolute;
+    right: 4%;
+    bottom: 2%;
+
+    font-size: 2rem;
 }
