@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="css/10-html.css">
     <link rel="stylesheet" href="css/20-body.css">
     <link rel="stylesheet" href="css/30-header.css">
-    <link rel="stylesheet" href="css/31-header-nav.css">
+    <link rel="stylesheet" href="css/contacts-31-header-nav.css">
     <link rel="stylesheet" href="css/40-main.css">
     <link rel="stylesheet" href="css/41-main-section.css">
     <link rel="stylesheet" href="css/contacts-42-class-card.css">
@@ -22,45 +22,63 @@
 <body>
     <header>
         <nav>
-            <a id="services" href="#">Služby</a>
-            <a id="products" href="#">Produkty</a>
+            <a id="contacts" href="#">Kontakty</a>
         </nav>
     </header>
 
     <main>
         <section>
             <div class="card">
-                <div>
+
+                <div id="telephone-number">
                     <span>Telefon:</span>
                     <span>602 051 645</span>
                 </div>
-                <div>
+
+                <div id="address">
                     <span>Adresa:</span>
                     <span>Rašínova 102, Brno-střed</span>
                 </div>
-                <div>
+
+                <div id="e-mail">
                     <span>E-mail:</span>
                     <span>bystrova.nehty@gmail.com</span>
                 </div>
-                <div>
+
+                <div id="working-hours">
                     <span>Pracovní doba:</span>
                 </div>
-                <div>
+
+                <div id="working-hours-details">
                     <span>po-pa 8-18:00</span>
                     <span>sobota 8-15:00</span>
                 </div>
-                <div>
+
+                <div id="where-am-i" onclick="scrollToNextSection()">
                     <span>KDE JSEM?</span>
                     <span>&gt;</span>
                     <span>&gt;</span>
                     <span>&gt;</span>
                 </div>
+
             </div>
         </section>
 
         <section>
             <div class="image">
-                <img onclick="toggleFullscreen(this)" src="img/0_working-place-table.webp" alt="working-place-table">
+                <img onclick="toggleFullscreen(this)" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Brno%2C_Ra%C5%A1%C3%ADnova_2%2C_br%C3%A1na.jpg/1536px-Brno%2C_Ra%C5%A1%C3%ADnova_2%2C_br%C3%A1na.jpg" alt="building-enter">
+            </div>
+        </section>
+
+        <section>
+            <div class="image">
+                <img onclick="toggleFullscreen(this)" src="https://upload.wikimedia.org/wikipedia/commons/7/7f/Brno_Rasinova_BHO-115536.jpg" alt="building-enter">
+            </div>
+        </section>
+
+        <section>
+            <div class="image">
+                <img onclick="toggleFullscreen(this)" src="https://cdn.vysokeskoly.cz/vysokeskoly/get-image/63f0743189057bcd425af409488acd3cab876a34-1024-768-0-0-1465-978.jpg" alt="building-enter">
             </div>
         </section>
     </main>
@@ -68,7 +86,7 @@
     <footer>
         <nav>
             <a id="home" href="index.html">Domů</a>
-            <a id="contacts" href="#">Kontakty</a>
+            <a id="order" href="#">Objednání</a>
         </nav>
     </footer>
 
