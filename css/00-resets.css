@@ -5,5 +5,6 @@
     box-sizing: border-box;
 }
 
+/* Cвойство: Значение; (properties: values;) */
 /* Убираем внешние (margin) и внутренние (padding) отступы у всех элементов */
 /* Устанавливаем box-sizing в border-box, чтобы размеры элементов включали padding и border */
